@@ -1,6 +1,7 @@
-import connect from "@/lib/db"; // DB connection helper
-import Product from "@/lib/modals/product"; // Product model
+
 import { NextResponse } from "next/server";
+import connect from "../../../../lib/db";
+import Product from "../../../../lib/modals/product";
 
 export const PUT = async (request, { params }) => {
     const { id } = await params; // Extract product ID from the URL params

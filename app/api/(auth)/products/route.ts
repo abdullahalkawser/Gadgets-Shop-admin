@@ -1,6 +1,7 @@
-import connect from "@/lib/db";
-import Product from "@/lib/modals/product";
+
 import { NextResponse } from "next/server";
+import connect from "../../../../lib/db";
+import Product from "../../../../lib/modals/product";
 
 
 export const POST = async (req: Request) => {

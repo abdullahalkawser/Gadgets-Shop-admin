@@ -12,9 +12,12 @@
     "@clerk/clerk-sdk-node": "^4.13.23",
     "@clerk/nextjs": "^6.12.5",
     "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
     "next": "15.2.2",
+    "next-cloudinary": "^6.16.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
