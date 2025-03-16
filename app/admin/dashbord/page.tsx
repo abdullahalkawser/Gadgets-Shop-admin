@@ -11,10 +11,10 @@ const Navbar = () => {
 
       {/* Navigation Links (Responsive) */}
       <div className="hidden md:flex space-x-10">
-        <Link href="/admin/orders">
+        <Link href="/order">
           <span className="hover:text-gray-300 cursor-pointer">Orders</span>
         </Link>
-        <Link href="/admin/products">
+        <Link href="/order">
           <span className="hover:text-gray-300 cursor-pointer">Product</span>
         </Link>
         <Link href="/admin/products">
