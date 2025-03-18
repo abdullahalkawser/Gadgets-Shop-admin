@@ -16,7 +16,7 @@ const MyComponent = () => {
   // Function to fetch data from the API
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/products");
+      const response = await fetch("/api/products");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
